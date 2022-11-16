@@ -3,11 +3,10 @@
     "description": "ethereum rpc client, offline sign, php",
     "type": "composer-plugin",
     "require": {
-        "simplito/elliptic-php": "dev-master",
-        "kornrunner/keccak": "dev-main",
-        "guzzlehttp/guzzle": "7.5.x-dev"
+        "simplito/elliptic-php": "^1.0",
+        "kornrunner/keccak": "^1.0",
+        "guzzlehttp/guzzle": "7.5"
     },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Redgoarhao\\EthereumClient\\": "src/"
