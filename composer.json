@@ -1,22 +1,20 @@
 {
     "name": "redgoarhao/ethereum-client",
     "description": "ethereum rpc client, offline sign, php",
-    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "赵波",
+            "email": "792598794@qq.com"
+        }
+    ],
     "require": {
         "simplito/elliptic-php": "^1.0",
         "kornrunner/keccak": "^1.0",
-        "guzzlehttp/guzzle": "7.5"
+        "guzzlehttp/guzzle": "^7.5"
     },
     "autoload": {
         "psr-4": {
-            "Redgoarhao\\EthereumClient\\": "src/"
+            "xtype\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "Administrator",
-            "email": "admin@example.com"
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
